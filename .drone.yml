@@ -1,0 +1,5 @@
+build:
+  node:
+    image: node:5-slim
+    commands:
+      - npm install
