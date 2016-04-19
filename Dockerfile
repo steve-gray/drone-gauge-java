@@ -27,9 +27,7 @@ RUN apk add --update nodejs &&  \
     ln -s /usr/lib/jvm/java-1.8-openjdk/bin/javac /usr/local/bin/javac
 
 # Install Gauge
-COPY gauge-0.4.0-linux.x86_64.zip /tmp
-
-#ADD https://github.com/getgauge/gauge/releases/download/v0.4.0/gauge-0.4.0-linux.x86_64.zip /tmp
+ADD https://github.com/getgauge/gauge/releases/download/v0.4.0/gauge-0.4.0-linux.x86_64.zip /tmp
 RUN mkdir /gauge/ && \
     cd /tmp && \
     unzip gauge-0.4.0-linux.x86_64.zip -d /gauge && \
@@ -42,4 +40,5 @@ RUN mkdir /plugin
 COPY . /plugin/
 
 WORKDIR /plugin
+RUN npm install
 CMD ["node", "index"]
