@@ -41,4 +41,5 @@ COPY . /plugin/
 
 WORKDIR /plugin
 RUN npm install
+
 CMD ["node", "index"]
