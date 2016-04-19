@@ -38,7 +38,7 @@ RUN mkdir /gauge/ && \
     gauge --install java
 
 # Install Plugin Code
-RUN mdkir /plugin
+RUN mkdir /plugin
 COPY . /plugin/
 
 WORKDIR /plugin

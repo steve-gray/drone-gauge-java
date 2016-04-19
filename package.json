@@ -10,6 +10,10 @@
     "bdd",
     "testing"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve-gray/drone-gauge-java.git"
+  },
   "author": "Steve Gray",
   "license": "MIT",
   "dependencies": {

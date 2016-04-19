@@ -1,0 +1,46 @@
+{
+  "name": "drone-gauge-java",
+  "version": "0.0.1",
+  "dependencies": {
+    "boom": {
+      "version": "3.1.2",
+      "from": "boom@>=3.0.0 <4.0.0",
+      "resolved": "http://npm.eventualconsistency.net/boom/-/boom-3.1.2.tgz"
+    },
+    "drone-node": {
+      "version": "1.0.1",
+      "from": "drone-node@latest",
+      "resolved": "http://npm.eventualconsistency.net/drone-node/-/drone-node-1.0.1.tgz"
+    },
+    "hoek": {
+      "version": "3.0.4",
+      "from": "hoek@>=3.0.0 <4.0.0",
+      "resolved": "http://npm.eventualconsistency.net/hoek/-/hoek-3.0.4.tgz"
+    },
+    "isemail": {
+      "version": "2.1.0",
+      "from": "isemail@>=2.0.0 <3.0.0",
+      "resolved": "http://npm.eventualconsistency.net/isemail/-/isemail-2.1.0.tgz"
+    },
+    "joi": {
+      "version": "7.3.0",
+      "from": "joi@>=7.0.0 <8.0.0",
+      "resolved": "http://npm.eventualconsistency.net/joi/-/joi-7.3.0.tgz"
+    },
+    "moment": {
+      "version": "2.13.0",
+      "from": "moment@>=2.0.0 <3.0.0",
+      "resolved": "http://npm.eventualconsistency.net/moment/-/moment-2.13.0.tgz"
+    },
+    "topo": {
+      "version": "2.0.0",
+      "from": "topo@>=2.0.0 <3.0.0",
+      "resolved": "http://npm.eventualconsistency.net/topo/-/topo-2.0.0.tgz"
+    },
+    "wreck": {
+      "version": "7.2.0",
+      "from": "wreck@>=7.0.0 <8.0.0",
+      "resolved": "http://npm.eventualconsistency.net/wreck/-/wreck-7.2.0.tgz"
+    }
+  }
+}
