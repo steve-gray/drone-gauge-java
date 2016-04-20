@@ -18,7 +18,7 @@ RUN apk add --update bash && rm -rf /var/cache/apk/*
 # Install Maven
 RUN apk add --update tar && \
     apk add --update wget && \
-    apk add --update curl \
+    apk add --update curl
 
 # Install Maven
 RUN cd /tmp && \
