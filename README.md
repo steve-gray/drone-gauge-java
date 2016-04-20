@@ -31,8 +31,9 @@ relevent the system APKs are updated, ensuring the container is up to date as mu
 can be expected.
 
 ## Installing into Local Drone.io
-You can reference the images directly from docker hub, but you'll need to add the `eventualconsistency/*`
-images path to your whitelist configuration for your drone instance. 
+You can reference the images directly from docker hub, but you'll need to add the eventualconsistency
+images path to your whitelist configuration for your drone instance. Please refer to the Drone.io
+documentation.
 
 Another option is to simply clone the image and tag it locally as plugins/`name-goes-here`. 
 The steps for this are
