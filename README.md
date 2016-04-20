@@ -1,7 +1,7 @@
 # drone-gauge-java
     docker pull eventualconsistency/drone-gauge-java:latest
 
-[![](https://imagelayers.io/badge/eventualconsistency/drone-gauge-java:latest.svg)](https://imagelayers.io/?images=eventualconsistency/drone-gauge-java:latest 'Get your own badge on imagelayers.io')
+![ImageLayers](https://imagelayers.io/badge/eventualconsistency/drone-gauge-java:latest.svg)
 
 Docker image for running BDD style tests using [Gauge](http://getgauge.io/) from [ThoughtWorks](http://www.thoughtworks.com/) within [Drone.io](Drone.io) or similiar build solutions.
 
