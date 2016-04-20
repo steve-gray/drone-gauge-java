@@ -43,3 +43,13 @@ The steps for this are
 
 Where latest is any of the released versions.
 
+## Including in Drone.yml
+Here's an example .drone.yml file calling Gauge. It assumes that the local workspace folder is already
+configured to run the tests (project pulled from Git, any libs/jars pulled down already):
+
+    build:
+        gauge:
+            image: plugins/drone-gauge-java:0.4.0
+            commands:
+                - gauge specs/
+
