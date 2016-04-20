@@ -2,7 +2,7 @@
 
 [![Build Status](http://beta.drone.io/api/badges/drone-plugins/drone-docker/status.svg)](http://beta.drone.io/drone-plugins/drone-docker)
 [![Coverage Status](https://aircover.co/badges/drone-plugins/drone-docker/coverage.svg)](https://aircover.co/drone-plugins/drone-docker)
-[![](https://badge.imagelayers.io/plugins/drone-docker:latest.svg)](https://imagelayers.io/?images=plugins/drone-docker:latest 'Get your own badge on imagelayers.io')
+[![](https://badge.imagelayers.io/eventualconsistency/drone-gauge-java:latest.svg)](https://imagelayers.io/?images=eventualconsistency/drone-gauge-java:latest 'Get your own badge on imagelayers.io')
 
 Drone plugin to execute ThoughtWorks Gauge test scripts during a build.
 
